@@ -39,23 +39,11 @@ const AddNote = () => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block font-medium mb-1 text-gray-700">Title</label>
-            <input
-              type="text"
-              className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Enter note title"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-            />
+            <input type="text" className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter note title" value={title} onChange={(e) => setTitle(e.target.value)} required/>
           </div>
           <div>
             <label className="block font-medium mb-1 text-gray-700">Content</label>
-            <textarea
-              className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Write your note here..."
-              rows={6}
-              value={content}
-              onChange={(e) => setContent(e.target.value)}
-            />
+            <textarea className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Write your note here..." rows={6} value={content} onChange={(e) => setContent(e.target.value)} required/>
           </div>
           <button
             type="submit"

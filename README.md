@@ -4,7 +4,8 @@ A simple and elegant note-taking app built with **React** and **Tailwind CSS**, 
 
 ## 🚀 Live Demo
 
-🔗 [Live Site on Vercel / Netlify](https://your-live-link-here.vercel.app)  
+🔗 [Live Site on Vercel](https://custom-note-service-seven.vercel.app/)
+
 📂 [GitHub Repo](https://github.com/ramveermeena2003/custom-note-service)
 
 ---
